@@ -1,11 +1,11 @@
-# DisCraft/n
-Discord Bot for Minecraft Server Management!/n
-v.0.01a ALPHA BUILD/n
+# DisCraft
+## Discord Bot for Minecraft Server Management!
+### v.0.01a ALPHA BUILD
 
-1. PURPOSE/n
-    Discord management of Minecraft servers, initially targeting: Server Uptime, Server Status, Active Users, Server Start, Server Reboot, Notifications on Reboot, Crash, Suspend./n
+### 1. PURPOSE
+    Discord management of Minecraft servers, initially targeting: Server Uptime, Server Status, Active Users, Server Start, Server Reboot, Notifications on Reboot, Crash, Suspend.
     
-2. SCOPE/n
+### 2. SCOPE
     Initially developed for FORGE based Minecraft servers.
     Creation of DisCraft.js for server hooks.
         a. Transmit thread ID for multi-instance servers.
@@ -14,12 +14,12 @@ v.0.01a ALPHA BUILD/n
     Creation of DisCraft Bot.
         a. Send reboot, start and status commands.
         b. Nofiticaions for server crashes.
-        c. Promote /op though discord./n
+        c. Promote /op though discord.
             
-3. CONFIGURATION
-    /n
+### 3. CONFIGURATION
     
-4. COMMANDS/n```
+    
+### 4. COMMANDS
     !op
         Sends /op command to server. Requires [username] and [serverID].
         Usage: !op [Toot'sToot] [CrossCheque]
