@@ -44,4 +44,3 @@
     !stop
         Sends /stop command to server. Requires [serverID].
         Usage: !stop [Toot'sToot]
-```
