@@ -18,7 +18,7 @@ async def on_ready():
         
 
 #Open server shell
-os.system(screen -p minecraft -X vanillaServer) 
+#os.system(screen -p minecraft -X vanillaServer) 
 #need to test window names, vanillaServer should be same as .sh
 
 ## COMMANDS ##
@@ -27,7 +27,15 @@ os.system(screen -p minecraft -X vanillaServer)
 	brief="Starts the server."
 )
 async def start(ctx):
-	subprocess.call(['sh', '.path/to/file/start.sh'])
-#bot calls for local shell to begin
+	subprocess.call(['sh', './Users/harbinger/Downloads/Minecraft/vanillaserver.sh'])
+#bot calls OS to start new shell
+
+@bot.command(
+	help="Terminates active Minecraft server, hopefully gracefully.",
+	brief="Stops the server."
+)
+async def start(ctx):
+	os.system(screen -p minecraft -X vanillaServer "stop\015")
+#bot forwards STOP command to minecraft shell
 
 bot.run(DISCORD_TOKEN)
