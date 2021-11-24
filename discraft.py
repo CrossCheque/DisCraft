@@ -26,6 +26,7 @@ bot = commands.Bot(command_prefix="!")
 async def start(ctx):
 	subprocess.call(['sh', '/Users/harbinger/Downloads/Minecraft/vanillaserver.sh'])
 #bot calls OS to start new shell
+#change this to a screen command, will fix issue with muliplexing the discraft directory and shell. -AV
 
 @bot.command(
 	help="Terminates active Minecraft server, hopefully gracefully.",
