@@ -30,7 +30,7 @@ Installation
 See `Installation.txt <https://github.com/CrossCheque/DisCraft/blob/5a2eba35f9cb444ed14a705ba6c1b046c3ec9b5b/Installation.rst>`_ for full details
 
 Quick Overview:
-Installation of `Discord.py` and `DotENV` are required to run:
+Installation of ``Discord.py`` and ``DotENV`` are required to run:
 
 .. code:: sh
 
