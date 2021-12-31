@@ -27,7 +27,7 @@ class BleepBloop(commands.Cog):
 	@commands.command(brief='Helpful Text', description='One Ping to rule them all, One Pong to find them, One Ding to dong them all, and in the darkness... ping them.')
 	async def ping(self, ctx):
 		await ctx.send('Pong!')
-  
+
     @commands.command(brief='Less Helpful Text', description="Sometimes you just don't know what you're doing.")
     async def pong(self, ctx):
         await ctx.send("Hold on, that's my line!")
