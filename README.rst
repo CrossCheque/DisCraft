@@ -17,7 +17,7 @@ Key Features
 -------------
 
 - **Run easily on macOS or Linux systems!** 
-    No libraries, managers or long lists of packages required! See `Installation.txt <https://github.com/CrossCheque/DisCraft/blob/5a2eba35f9cb444ed14a705ba6c1b046c3ec9b5b/Installation.rst>`_ for full details.
+    No libraries, managers or long lists of packages required! See `Installation.rst <https://github.com/CrossCheque/DisCraft/blob/3dc2702b63e2c0c11aea06a484cb9717e17d9376/Installation.rst>`_ for full details.
 - **Runs on hosted servers!**
     Not all 3rd party hosts are compatible, requires shell access.
 - **Note: This repository has not been tested on Windows systems.**
@@ -27,7 +27,7 @@ Installation
 ----------
 
 **Built on Python 3.10+**
-See `Installation.txt <https://github.com/CrossCheque/DisCraft/blob/5a2eba35f9cb444ed14a705ba6c1b046c3ec9b5b/Installation.rst>`_ for full details
+See `Installation.txt <https://github.com/CrossCheque/DisCraft/blob/3dc2702b63e2c0c11aea06a484cb9717e17d9376/Installation.rst>`_ for full details
 
 Quick Overview:
 Installation of ``Discord.py`` and ``DotENV`` are required to run:
