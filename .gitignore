@@ -3,3 +3,4 @@
 .DS_Store
 /servers/*
 .log
+/sauce/_pycahce_/
