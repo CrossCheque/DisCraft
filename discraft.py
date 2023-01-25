@@ -28,7 +28,7 @@ class BleepBloop(commands.Cog):
 	async def ping(self, ctx):
 		await ctx.send('Pong!')
 
-	@commands.command(brief='Less Helpful Text', description="Sometimes you just don't know what you're doing. Idiot.")
+	@commands.command(brief='Less Helpful Text', description="Sometimes you just don't know what you're doing.")
 	async def pong(self, ctx):
 		await ctx.send("Hold on, that's my line!")
 
@@ -48,7 +48,7 @@ class ServerCommands(commands.Cog):
 	@commands.command(brief='Stop!',description='Stop the vanilla shell, hopefully gracefully.')
 	async def stop(self, ctx):
 		await ctx.send("Haulted!")
-		os.system("screen -p vanillaMC -X eval 'stuff "stop"\015'")
+		os.system("screen -p vanillaMC -X eval 'stuff "stop"\015' ")
 		
 bot.add_cog(BleepBloop(bot))
 bot.add_cog(ServerCommands(bot))
