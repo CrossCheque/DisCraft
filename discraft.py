@@ -48,7 +48,7 @@ class ServerCommands(commands.Cog):
 	@commands.command(brief='Stop!',description='Stop the vanilla shell, hopefully gracefully.')
 	async def stop(self, ctx):
 		await ctx.send("Haulted!")
-		os.system("screen -p vanillaMC -X eval 'stuff "stop"\015' ")
+		os.system("screen -p 0 -S vanillaMC -X eval 'stuff "stop"\015'")
 		
 bot.add_cog(BleepBloop(bot))
 bot.add_cog(ServerCommands(bot))
